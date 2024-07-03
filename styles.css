@@ -1,0 +1,186 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #faf7f7;
+    color: #070000;
+    margin: 0;
+    padding: 0;
+    background-image: url(./images/barberia.jpg);
+    background-size: cover; 
+    background-position: center; 
+    background-attachment: fixed; 
+}
+
+.navbar-toggler {
+    border: 0; 
+    outline: 0; 
+    cursor: pointer; 
+    background-color: rgb(0, 0, 0)
+    
+}
+
+
+.navbar-toggler-icon {
+    color: #ffffff; 
+    
+}
+
+.navbar-toggler:hover .navbar-toggler-icon {
+    color: #000000; 
+}
+
+
+
+header {
+    background-color: #00070e;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+header a:hover {
+    color: #ccc;
+}
+
+
+.navbar {
+    padding: 1vh;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+.navbar-nav .nav-item {
+    margin-right: 10px;
+}
+
+.navbar-nav .nav-link {
+    color: #cccccc;
+    font-weight: 500;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffffff;
+}
+
+.navbar-dark .navbar-toggler-icon {
+    background-color: #fff;
+}
+
+
+section {
+    padding: 50px 0;
+    position: relative; 
+    z-index: 1; 
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+
+.btn-primary {
+    background-color: #dc3545;
+    border-color: #dc3545;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.btn-primary:hover {
+    background-color: #c82333;
+    border-color: #bd2130;
+}
+
+
+footer {
+    background-color: #000306;
+    color: #cccccc;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1; 
+}
+footer p {
+    margin: 0;
+    font-size: 14px;
+    text-align: center;
+}
+
+
+.card {
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.card-text {
+    font-size: 1rem;
+}
+
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-control {
+    border: 1px solid #090000;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.form-control:focus {
+    border-color: #dc3545;
+    box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.25);
+}
+
+textarea.form-control {
+    resize: vertical;
+}
+
+
+@media (max-width: 768px) {
+    .navbar-brand {
+        font-size: 1.2rem;
+    }
+
+    .navbar-nav .nav-link {
+        font-size: 0.9rem;
+    }
+
+    .section-title {
+        font-size: 1.2rem;
+    }
+
+    .card-title {
+        font-size: 1.1rem;
+    }
+
+    .card-text {
+        font-size: 0.9rem;
+    }
+}
+
+
+body {
+    background-image: url(./images/barberia.jpg);  
+    background-size: cover; 
+    background-position: center; 
+    background-attachment: fixed; 
+    color: #080000; 
+}
+
+
